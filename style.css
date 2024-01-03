@@ -1,0 +1,18 @@
+body {
+    padding: 50px;
+    background-color: grey;
+    text-align: center;
+}
+
+input {
+  background-color: rgb(31, 27, 27);
+  padding: 1%;
+  font-size: large;
+  size: 100px;
+  color: white;
+  border-radius: 50px;
+}
+
+.section {
+    padding: 50px;
+}

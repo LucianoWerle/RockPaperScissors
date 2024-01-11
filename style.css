@@ -5,12 +5,12 @@ body {
 }
 
 input {
-  background-color: rgb(31, 27, 27);
+  background-color: black;
   padding: 1%;
   font-size: large;
   size: 100px;
   color: white;
-  border-radius: 50px;
+  border-radius: 15px;
 }
 
 .section {

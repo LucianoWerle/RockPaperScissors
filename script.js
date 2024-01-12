@@ -26,7 +26,7 @@ function playRound(playerSelection) {
             + "<br><br>Player score: " + playerScore + "<br>Computer score: " + computerScore)
 
         if (playerScore == 5) {
-            result += '<br><br><h1>You won the game!</h1> <br><br>Reload the page to play again'
+            result += '<br><br><h1>You won the game!</h1> <br><br><a href="https://lucianowerle.github.io/RockPaperScissors/">Click here to play again</a>'
             disableButtons()
         }
     }
@@ -40,7 +40,7 @@ function playRound(playerSelection) {
             + "<br><br>Player score: " + playerScore + "<br>Computer score: " + computerScore)
 
         if (computerScore == 5) {
-            result += '<br><br><h1>Computer won the game!</h1> <br><br>Reload the page to play again'
+            result += '<br><br><h1>Computer won the game!</h1> <br><br><a href="https://lucianowerle.github.io/RockPaperScissors/">Click here to play again</a>'
             disableButtons()
         }
     }
